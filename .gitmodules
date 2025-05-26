@@ -1,0 +1,4 @@
+[submodule "ch32fun"]
+	path = ch32fun
+	url = https://github.com/BogdanTheGeek/ch32v003fun.git
+	branch = usbpd

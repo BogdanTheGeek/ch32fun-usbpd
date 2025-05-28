@@ -146,6 +146,8 @@ int main(void)
             ;
     }
 
+    LOGW(TAG, "You can press 'r' to reset USB PD negotiation, 'q' to reset the board");
+
 loop_start:
 
     USBPD_Reset();

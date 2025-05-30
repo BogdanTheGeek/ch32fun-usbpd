@@ -1,6 +1,6 @@
 USB Power Delivery Library for [ch32fun](https://github.com/cnlohr/ch32fun)
 
- > [!WARN]
+ > [!WARNING]
  > This library has been written from the ground up only using the references listed below.
  > Things might not work as expected. If you encounter any issues, open a ticket or, even better, submit a PR.
 

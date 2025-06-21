@@ -572,9 +572,7 @@ bool USBPD_IsPPS(const USBPD_SourcePDO_t *pdo);
  */
 USBPD_SpecificationRevision_e USBPD_GetVersion(void);
 
-#define USBPD_IMPLEMENTATION // TODO: Remove this line to disable USBPD implementation
-
-#ifdef USBPD_IMPLEMENTATION
+#if defined(USBPD_IMPLEMENTATION)
 
 #include <string.h>
 
